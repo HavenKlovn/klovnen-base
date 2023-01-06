@@ -133,21 +133,21 @@ function DisplayMenu(state, slider1, slider2, slider3, slider4, slider5, startPo
             {
                 {
                     menu = "mainMenu",
-                    heading = "6STR Tuner Shop",
-                    subheading = "Adjust Wheel Fitment",
+                    heading = "Oslo Tunersjappe",
+                    subheading = "Juster hjulmonteringen",
                     items = 
                     {
-                        {name = "w_width", type_1 = "normal", label_1 = "Wheels Width", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider1, sliderStartPos = startPos[1]},
-                        {name = "w_fl", type_1 = "normal", label_1 = "Wheel Front Left", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider2, sliderStartPos = startPos[2]},
-                        {name = "w_fr", type_1 = "normal", label_1 = "Wheel Front Right", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider3, sliderStartPos = startPos[3]},
-                        {name = "w_rl", type_1 = "normal", label_1 = "Wheel Rear Left", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider4, sliderStartPos = startPos[4]},
-                        {name = "w_rr", type_1 = "normal", label_1 = "Wheel Rear Right", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider5, sliderStartPos = startPos[5]}
+                        {name = "w_width", type_1 = "normal", label_1 = "Hjulbredde", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider1, sliderStartPos = startPos[1]},
+                        {name = "w_fl", type_1 = "normal", label_1 = "Hjul Front Left", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider2, sliderStartPos = startPos[2]},
+                        {name = "w_fr", type_1 = "normal", label_1 = "Hjul Front Right", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider3, sliderStartPos = startPos[3]},
+                        {name = "w_rl", type_1 = "normal", label_1 = "Hjul Rear Left", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider4, sliderStartPos = startPos[4]},
+                        {name = "w_rr", type_1 = "normal", label_1 = "Hjul Rear Right", sliderItems_1 = {}, type_2 = "slider", label_2 = "", sliderItems_2 = slider5, sliderStartPos = startPos[5]}
                     }
                 },
                 {
                     menu = "exitConfirmation",
-                    heading = "Are you sure you want to exit?",
-                    subheading = "Choose Yes or No",
+                    heading = "Er du sikker på at du vil avslutte?",
+                    subheading = "Velg JA eller NEI",
                     items = 
                     {
                         {name = "no", type_1 = "normal", label_1 = "No", type_2 = "normal", label_2 = ""},
